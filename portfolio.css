@@ -230,14 +230,8 @@ section {
 
 .skills-container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 25px;
-}
-
-@media (max-width: 1200px) {
-    .skills-container {
-        grid-template-columns: repeat(3, 1fr);
-    }
 }
 
 @media (max-width: 768px) {
